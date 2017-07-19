@@ -17,6 +17,23 @@ a:hover{
 
 
 .form{
-	background-color: #13232f, 0.9;
+	background-color: #13232f;
+	padding: 40px;
+	max-width: 600px;
+	margin: 40px auto;
+	border-radius: 5px;
+	box-shadow: 0 4px 10px 4px;
 
+}
+
+.switch_group{
+	list-style:none;
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+
+.tab a{
+	display: block;
+	padding: 15px;
+	
 }
