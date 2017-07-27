@@ -43,3 +43,35 @@ $('.form').find('input, textarea').on('keyup blur focus', function (e) {
     }
 
 });
+
+
+var userlist = [
+  {
+    fname:"Michael",
+    lname:"Jordan",
+    email:"jordan@gmail.com",
+    pw:"jordan"
+  },
+  {
+    fname:"FirstName",
+    lname:"LastName",
+    email:"test@gmail.com",
+    pw:"test"
+  },
+  {
+    fname:"",
+    lname:"",
+    email:"",
+    pw:""
+  }
+]
+
+
+function login() {
+  var userEmail = document.getElementById('loginUsername').value
+  var pw = document.getElementById('loginPW').value
+
+  for (var i = 0; i < userlist.length; i++) {
+    if (username == userlist[i].) {}
+  }
+}

@@ -43,7 +43,7 @@
           
           <div class="field_wrap">
             <label>Email Address<span class="require">*</span></label>
-            <input type="text" required autocomplete="off">
+            <input type="email" required autocomplete="off">
           </div>
 
           <div class="field_wrap">
@@ -62,17 +62,17 @@
         <form action="/" method="post">
           <div class="field_wrap">
             <label>Email Address<span class="require">*</span></label>
-            <input type="email" required autocomplete="off">  
+            <input type="email" required autocomplete="off" id="loginEmail">  
           </div>
 
           <div class="field_wrap">
             <label>Password<span class="require">*</span></label>
-            <input type="password" required autocomplete="off">
+            <input type="password" required autocomplete="off" id="loginPW">
           </div>
 
           <p class="forgotPW"><a href="#">Forgot Password?</a></p>
         
-          <button class="button">Log In</button>
+          <button class="button" onclick="login()">Log In</button>
         </form>
         
       </div>
