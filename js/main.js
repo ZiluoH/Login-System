@@ -59,19 +59,32 @@ var userlist = [
     pw:"test"
   },
   {
-    fname:"",
-    lname:"",
-    email:"",
-    pw:""
+    fname:"1",
+    lname:"1",
+    email:"1@gmail.com",
+    pw:"1"
   }
+  // {
+  //   fname:"",
+  //   lname:"",
+  //   email:"",
+  //   pw:""
+  // }
 ]
 
 
 function login() {
-  var userEmail = document.getElementById('loginUsername').value
+  var userEmail = document.getElementById('loginEmail').value
   var pw = document.getElementById('loginPW').value
 
   for (var i = 0; i < userlist.length; i++) {
-    if (username == userlist[i].) {}
+    if (userEmail == userlist[i].email && pw == userlist[i].pw) 
+    {
+      console.log("login")
+    }
+    else
+    {
+      console.log("fail")
+    }
   }
 }
