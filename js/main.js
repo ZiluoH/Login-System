@@ -81,9 +81,9 @@ function login() {
     if (userEmail == userlist[i].email && pw == userlist[i].pw) 
     {
       console.log("login")
+      break
     }
-    else
-    {
+    else{
       console.log("fail")
     }
   }
