@@ -104,7 +104,7 @@ function signup() {
       alert('This Email address is registered already, please use another Email address')
       return
     } else if (newpw.length < 6){
-      alert('Your pw is too short, must be longer than 6 characters')
+      alert('Your password is too short, it must be no less than 6 characters')
       return
     }    
   }
